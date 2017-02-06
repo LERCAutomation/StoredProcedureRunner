@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////
+        /////////////////////////////////////////////8Lx////////////////////////89B///PQ
+        f//z0H////LT//////////////////////////////////////8Oyf////////nnv//tuT//6KIA/+ii
+        AP/oogD/6KIA///ahP//6rf/+dyY////////////////////////////Stb//4bk///oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP//2oT//+q3//O5Mv/z0H///////////////////////4bk//8Oyf//6KIA/696
+        AP+vegD/r3oA/696AP+vegD/u5ZC/7ueW//RmRn/89B////////////////////////C8f//Dsn//yir
+        v//oogD/6KIA/+iiAP/oogD/6KIA///ahP//6rf/16Uy/9e8f////////////////////////////w7J
+        //8Oyf//sas//+iiAP/oogD/6KIA/+iiAP//2oT//+q3//O5Mv/z0H//////////////////////////
+        //9K1v//Dsn//0S/v//oogD/6KIA/+iiAP/oogD//9qE///qt//zuTL/89B/////////////huT//4bk
+        //+G5P//Stb//w7J//8Oyf//lZg//696AP+vegD/r3oA/7uWQv+7nlv/0ZkZ//PQf////////////4bk
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//0S/v//oogD/6KIA/+iiAP//2oT//+q3/9elMv/XvH//////////
+        ////////Dsn//w7J//8Oyf//Dsn//3u1f/97tX//6KIA/+iiAP/oogD//9qE///qt//zuTL/89B/////
+        /////////////4bk//8Oyf//Dsn//w7J//9Ev7//6KIA/+iiAP/oogD/6KIA///ahP//6rf/87ct//PQ
+        f///////////////////////Dsn//w7J//8Oyf//Dsn//0S/v/+vegD/r3oA/696AP+vegD/u55b/9GY
+        FP/z0H///////////////////////4bk//8Oyf//Dsn//w7J//8Oyf//RL+//+iiAP/oogD/6KIA/+ii
+        AP/LjgD/3dS/////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J//9Ev7//6KIA/+ii
+        AP/z0H///////////////////////////////////////8Lx//+G5P//huT//4bk//+G5P//huT/////
+        /////////////////////////////wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////Dsn/////
+        /////////////////////////////////////////////+iiAP/oogD/6KIA/+iiAP/oogD/6KIA///L
+        Uf//////////////////////////////////////////////////////////////////////////////
+        //8Oyf//Dsn/////////////////////////////6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD//8tR///qt///6rf//+q3////////////////////////////////////////////////////
+        /////////////w7J//8Oyf//////////////////6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP//y1H//+q3///qt///6rf//9Bk/+iiAP//////////////////////////////
+        ////////////////////////Dsn//w7J//8Oyf///////+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA///LUf//6rf//+q3///qt///0GT/6KIA/+iiAP//////////////
+        ////////////////////////////////////////Dsn//w7J////////6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD//8tR///qt///6rf//+q3///QZP/oogD/6KIA////
+        //////////////////////////////////////////////////8Oyf//Dsn//w7J///oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP93UwD/d1MA/3dTAP93UwD/d1MA/3dTAP93UwD/d1MA///qt///6rf//9Bk/+ii
+        AP/oogD//////////////////////////////////////////////////////w7J//8Oyf//Dsn//+ii
+        AP/oogD/d1MA/3dTAP93UwD/d1MA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA///LUf//6rf/d1MA/3dT
+        AP93UwD/6KIA/+iiAP//////////////////////////////////////////////////////Dsn//w7J
+        //8Oyf//Dsn//3dTAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD//8tR///q
+        t///6rf//+q3///QZP93UwD/d1MA////////////////////////////////////////////////////
+        ////////Dsn//w7J//8Oyf//Dsn//+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP//y1H//+q3///qt///6rf//9Bk/+iiAP/oogD/////////////////////////////////////////
+        //////////////////8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA///LUf//6rf//+q3///qt///0GT/6KIA/+iiAP//////////////////////////////
+        /////////////////////////////w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD//8tR///qt///6rf//+q3///QZP/oogD/6KIA////////////////////
+        ////////////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J///oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP//y1H//+q3///qt///6rf//9Bk/+iiAP/oogD/////////
+        ////////////////////////////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J
+        ///oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA///LUf//6rf//+q3///qt///0GT/6KIA/+ii
+        AP////////////////////////////////////////////////////////////////8Oyf//Dsn//w7J
+        //8Oyf//Dsn//+iiAP/oogD/d1MA/3dTAP93UwD/d1MA/3dTAP93UwD/d1MA/3dTAP//6rf//+q3///Q
+        ZP/oogD/6KIA////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//3dTAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP//y1H//+q3/3dT
+        AP93UwD/d1MA/+iiAP/oogD/////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA///L
+        Uf//6rf//+q3///qt///0GT/d1MA/3dTAP////////////////////////////////8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD//8tR///qt///6rf//+q3///QZP/oogD/6KIA////////////////////////////////////
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J///oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP//y1H//+q3///qt///6rf//9Bk/+iiAP/oogD/////////////////////////
+        /////////////w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA///LUf//6rf//+q3///qt///0GT/6KIA/+iiAP//////////////
+        /////////////////////////////w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD//8tR///qt///6rf//+q3///QZP/oogD/6KIA////
+        ////////////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP//y1H//+q3///qt///6rf//8tR/+ii
+        AP/oogD/////////////////////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//6KIA/3dTAP93UwD/d1MA/3dTAP93UwD/d1MA/3dTAP93UwD//+q3///q
+        t///y1H/6KIA/+iiAP////////////////////////////////////////////////8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP93UwD/d1MA/3dTAP/oogD/6KIA////////////////////////////////////////////////////
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/3dTAP93UwD/////////////////////////////////////////
+        /////////////w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA////////////////////////////////////
+        /////////////////////////////w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA////////////////////////////////////
+        ////////////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//6KIA/+iiAP/oogD/6KIA////////////////////////////////////
+        ////////////////////////////////////////////////////////Dsn//w7J//8Oyf//Dsn//w7J
+        //8Oyf//Dsn//w7J//8Oyf//Dsn//w7J////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>

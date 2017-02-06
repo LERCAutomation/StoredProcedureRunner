@@ -1,0 +1,11 @@
+Log file for Stored Procedure Runner, started on 15/02/2017 13:05:16
+15/02/2017 13:05:16 : Database connection string: Server=SONY-VAIO\SQLEXPRESS; Database=HamsterDB2; Integrated Security=True;
+15/02/2017 13:05:16 : Stored procedure: MakeATable
+15/02/2017 13:05:16 : Variables entered: HamsterName,Sk.
+15/02/2017 13:05:16 : Output table: myTempHamsters
+15/02/2017 13:05:16 : Connection to database HamsterDB2 opened successfully
+15/02/2017 13:05:16 : Stored procedure MakeATable defined successfully
+15/02/2017 13:05:16 : Variables added to the stored procedure successfully
+15/02/2017 13:05:16 : Stored procedure executed successfully
+15/02/2017 13:05:18 : The result table myTempHamsters has one record
+15/02/2017 13:05:18 : Connection to database closed

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+WARNING: This file should be changed carefully and a backup should be
+taken before any changes so that they can be backed out.  Changed lines
+can also be commented out as below.
+-->
+
+<!--
+This config file contains all the variables used by the StoredProcedureRunner tool.
+
+The 'configuration' node is the 'root' node and signifies the start of the
+contents of the configuration file.
+
+The 'SPRunner' node contains all of the entries relating to the
+tool variables.
+
+Each entry relates to a file, folder, table name, column name or SQL statement
+used by the .
+-->
+<configuration>
+<SPRunner>
+
+  <!-- The existing file location where log files will be saved with output messages -->
+  <LogFilePath>
+	<value>H:\Dev\LERCAutomation\StoredProcedureRunner\LogFiles</value>
+  </LogFilePath>
+
+    <!-- Connection string for ADO connection (to allow stored procedures to be run with parameters) -->
+  <ConnectionString>
+	<value>Server=SONY-VAIO\SQLEXPRESS; Database=HamsterDB2; Integrated Security=True;</value>
+  </ConnectionString>
+
+  <!-- Database schema (leave as dbo unless there is a good reason otherwise) -->
+  <DBSchema>
+  	<value>dbo</value>
+  </DBSchema>
+
+  <!-- Stored Procedure Name for running when button is clicked -->
+  <SPName>
+  	<value>MakeATable</value>
+  </SPName>
+
+  <!-- Variables to be passed to the Stored Procedure -->
+  <!-- These should be in the format Variable1,value1;Variable2,value2 -->
+  <!-- Leave blank if there are none -->
+  <SPVariables>
+  	<value>HamsterName,Sk</value>
+  </SPVariables>
+
+  <!-- Result table name. If given, the tool will give a row count when finished -->
+  <!-- Leave blank if not required -->
+  <ResultTable>
+  		<value>myTempHamsters</value>
+  </ResultTable>
+</SPRunner>
+</configuration>
