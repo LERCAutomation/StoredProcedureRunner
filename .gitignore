@@ -53,6 +53,10 @@ local.properties
 
 Extracts/
 
+# Zip files
+*.zip
+*.zap
+
 # Build results
 
 [Dd]ebug/
