@@ -23,6 +23,7 @@ namespace StoredProcedureRunner
         List<string> liInputVariables = new List<string>();
         string strOutputTable = "";
         string strSchema;
+        int intTimeOut;
 
         bool blFoundXML;
         bool blLoadedXML;
@@ -111,6 +112,34 @@ namespace StoredProcedureRunner
 
                 try
                 {
+                    string strTimeout = xmlSPRunner["TimeoutSeconds"].InnerText;
+                    bool blSuccess;
+
+                    if (strTimeout != "")
+                    {
+
+                        blSuccess = int.TryParse(strTimeout, out intTimeOut);
+                        if (!blSuccess)
+                        {
+                            MessageBox.Show("The value entered for TimeoutSeconds in the XML file is not an integer number");
+                            blLoadedXML = false;
+                        }
+                    }
+                    else
+                    {
+                        intTimeOut = 0; // None given.
+                    }
+                    
+                }
+                catch
+                {
+                    MessageBox.Show("Could not locate the item 'DBSchema' in the XML file");
+                    blLoadedXML = false;
+                    return;
+                }
+
+                try
+                {
                     strSPName = xmlSPRunner["SPName"].InnerText;
                 }
                 catch
@@ -189,6 +218,11 @@ namespace StoredProcedureRunner
         public string DBSchema()
         {
             return strSchema;
+        }
+
+        public int TimeoutSeconds()
+        {
+            return intTimeOut;
         }
 
         public string SPName()

@@ -87,6 +87,11 @@ namespace StoredProcedureRunner
         private void button1_Click(object sender, EventArgs e)
         {
             // Code to run the stored procedure.
+            // check if the user is sure first.
+            DialogResult drUserResponse = MessageBox.Show("Are you sure you want to run the stored procedure " + myConfig.SPName() + "?", "Run Stored Procedure", MessageBoxButtons.YesNo);
+            if (drUserResponse == DialogResult.No)
+                return;
+
             
             // Start log file.
             string strLogFileName = "StoredProcedureRun" + DateTime.Now.Year.ToString() + "_" +  DateTime.Now.Month.ToString("0#") + "_" +  DateTime.Now.Day.ToString("0#") + ".txt";
@@ -125,10 +130,20 @@ namespace StoredProcedureRunner
 
             myFileFuncs.WriteLine(strLogFileName, "Connection to database " + conConnection.Database + " opened successfully");
 
-            // Define the stored procedure
-            SqlCommand cmdStoredProcedure = new SqlCommand(myConfig.DBSchema() + "." + myConfig.SPName(), conConnection);
-            cmdStoredProcedure.CommandType = CommandType.StoredProcedure;
-
+            int intTimeoutSeconds = myConfig.TimeoutSeconds();
+            SqlCommand cmdStoredProcedure = null;
+            if (intTimeoutSeconds == 0)
+            {
+                // Run with the default
+                cmdStoredProcedure = mySQLServerFuncs.CreateSQLCommand(ref conConnection, myConfig.DBSchema() + "." + myConfig.SPName(),
+                    CommandType.StoredProcedure);
+            }
+            else
+            {
+                // Define the stored procedure
+                cmdStoredProcedure = mySQLServerFuncs.CreateSQLCommand(ref conConnection, myConfig.DBSchema() + "." + myConfig.SPName(),
+                    CommandType.StoredProcedure, intTimeoutSeconds);
+            }
             myFileFuncs.WriteLine(strLogFileName, "Stored procedure " + myConfig.SPName() + " defined successfully");
 
             // Add any variables to the SP as required.
@@ -198,6 +213,7 @@ namespace StoredProcedureRunner
                     MessageBox.Show("The stored procedure was executed successfully. However, the tool cannot display results because " +
                         "the result table name " + myConfig.OutputTable() + " in the XML file is not valid. System error message: " + ex.Message);
                     myFileFuncs.WriteLine(strLogFileName, "ERROR: The output table name " + myConfig.OutputTable() + " is not correct. System error message: " + ex.Message);
+                    myFileFuncs.WriteLine(strLogFileName, "The stored procedure was executed successfully. Unable to report number of rows affected");
                         
                 }
                 else

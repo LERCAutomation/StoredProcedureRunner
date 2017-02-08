@@ -35,6 +35,12 @@ used by the .
   	<value>dbo</value>
   </DBSchema>
 
+  <!-- Timeout (seconds) is the maximum number of seconds that the stored procedure is allowed to run . -->
+  <!-- If you are experiencing timeout errors while running the tool, increase this number -->
+  <TimeoutSeconds>
+  	<value></value>
+  </TimeoutSeconds>
+
   <!-- Stored Procedure Name for running when button is clicked -->
   <SPName>
   	<value>MakeATable</value>
@@ -42,7 +48,7 @@ used by the .
 
   <!-- Variables to be passed to the Stored Procedure -->
   <!-- These should be in the format Variable1,value1;Variable2,value2 -->
-  <!-- Leave blank if there are none -->
+  <!-- Leave blank if there are none.  -->
   <SPVariables>
   	<value>HamsterName,Sk</value>
   </SPVariables>

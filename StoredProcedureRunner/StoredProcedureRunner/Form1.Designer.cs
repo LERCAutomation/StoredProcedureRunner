@@ -37,11 +37,11 @@
             // 
             // btnRun
             // 
-            this.btnRun.Location = new System.Drawing.Point(17, 60);
+            this.btnRun.Location = new System.Drawing.Point(65, 60);
             this.btnRun.Name = "btnRun";
-            this.btnRun.Size = new System.Drawing.Size(131, 23);
+            this.btnRun.Size = new System.Drawing.Size(70, 23);
             this.btnRun.TabIndex = 0;
-            this.btnRun.Text = "&Run Stored Procedure";
+            this.btnRun.Text = "&Run";
             this.btnRun.UseVisualStyleBackColor = true;
             this.btnRun.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -57,7 +57,7 @@
             // lblSPName
             // 
             this.lblSPName.AutoSize = true;
-            this.lblSPName.Location = new System.Drawing.Point(14, 24);
+            this.lblSPName.Location = new System.Drawing.Point(12, 33);
             this.lblSPName.Name = "lblSPName";
             this.lblSPName.Size = new System.Drawing.Size(121, 13);
             this.lblSPName.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(154, 60);
+            this.btnCancel.Location = new System.Drawing.Point(141, 60);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 3;
@@ -77,14 +77,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(302, 95);
+            this.ClientSize = new System.Drawing.Size(279, 95);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.lblSPName);
             this.Controls.Add(this.lblDBase);
             this.Controls.Add(this.btnRun);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRunSP";
-            this.Text = "Stored Procedure Runner 1.0";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Stored Procedure Runner 1.1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

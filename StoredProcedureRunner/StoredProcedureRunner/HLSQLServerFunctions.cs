@@ -41,11 +41,11 @@ namespace HLSQLServerFunctions
             return con;
         }
 
-        public SqlCommand CreateSQLCommand(ref SqlConnection aConnection, string aName, CommandType aCommandType)
+        public SqlCommand CreateSQLCommand(ref SqlConnection aConnection, string aName, CommandType aCommandType, int TimeoutSeconds = 4000)
         {
             SqlCommand myCmd = new SqlCommand(aName, aConnection);
             myCmd.CommandType = aCommandType;
-            myCmd.CommandTimeout = 400000; // TimeOut is 400000 seconds.
+            myCmd.CommandTimeout = TimeoutSeconds; // TimeOut is in seconds.
             return myCmd;
         }
 
